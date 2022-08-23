@@ -8,7 +8,6 @@ import {
   Wrapper,
 } from "./Searchbar.styles";
 import { v4 as uuidv4 } from "uuid";
-import InfiniteScroll from "react-infinite-scroll-component";
 
 export default function SearchBarUI(props: any) {
   return (

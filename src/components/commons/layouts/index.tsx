@@ -4,14 +4,14 @@ import { breakPoints } from "../../../commons/styles/styles/media";
 import LayoutBanner from "./banner/LayoutBanner.container";
 
 const Body = styled.div`
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   @media ${breakPoints.tablet} {
   }
   @media ${breakPoints.mobile} {
-    width: 120%;
+    /* width: 120%; */
   }
 `;
 
